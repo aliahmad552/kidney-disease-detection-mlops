@@ -1,0 +1,9 @@
+stages:
+  data_ingestion:
+    cmd: python -m src.kidney.data.data_ingestion
+    deps:
+      - src/kidney/data/data_ingestion.py
+      - src/kidney/utils/common.py
+      - src/kidney/config/config.yaml
+    outs:
+      - artifacts/raw_data
