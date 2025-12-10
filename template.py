@@ -9,14 +9,11 @@ project_name = "kidney"
 list_of_files = [
     '.github/workflows/.gitkeep'
     f"src/{project_name}/__init__.py",
-    f"src/{project_name}/components/__init__.py",
-    f"src/{project_name}/pipelines/__init__.py",
-    f"src/{project_name}/utils/__init__.py"
-    f"src/{project_name}/config/__init__.py",
-    f"src/{project_name}/constants/__init__.py",
-    f"src/{project_name}/entity/__init__.py"
-    f"config/config.yaml"
-    "app.py",
+    f"src/{project_name}/data/__init__.py",
+    f"src/{project_name}/models/__init__.py",
+    f"src/{project_name}/config/__init__.py"
+    f"src/{project_name}/utils/__init__.py",
+
     "Dockerfile",
     "requirements.txt",
     "Readme.md",
